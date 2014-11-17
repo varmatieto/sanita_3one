@@ -39,12 +39,15 @@ come quantità di prestazioni erogate per azienda sanitaria, nell'anno
 erogatrice ( pubblica o privata), del codice di prestazione e della
 relativa branca o disciplina specialistica.
 
-Insieme al dataset delle prestazioni sono disponibili due dataset di
-supporto che riguardano:
+La base informativa comprende:
 
--   elenco delle Branche ( o Discipline),
+-   il dataset delle prestazioni (con 295643 osservazioni su 5
+    variabili);
 
--   l'elenco delle Aziende Sanitarie.
+-   l'elenco delle Discipline (con 43 osservazioni utilizzate delle 79
+    presenti),
+
+-   l'elenco delle Aziende Sanitarie (con 29 aziende riportate).
 
 Il catalogo delle `prestazioni specialistiche sanitarie` si riferisce
 come da descrizione all': *elenco delle prestazioni erogate dalla
@@ -52,3 +55,6 @@ Regione Piemonte ai sensi della DGR 11-6036 del 02 luglio 2013,
 effettuate a livello ambulatoriale e non ambulatoriale o riferite a
 particolari attivita' svolte in attuazione di funzioni specificatamente
 attribuite, erogabili nell' ambito del servizio sanitario regionale .*
+
+Il codice dell'applicazione e' disponibile
+[qui](https://github.com/varmatieto/sanita_3one/)

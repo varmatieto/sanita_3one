@@ -15,7 +15,7 @@ shinyUI(navbarPage(" Prestazioni sanitarie 2012 ",
                                 checkboxInput('privati', 'solo privati'),
                                 hr(),
                                 selectInput('xs', 'Asse X', choices = c("tot_quantita","n_osservazioni"), width ="70%"),
-                                selectInput('ys', 'Asse Y', choices = c("azienda","nbranca"), width ="70%")   
+                                selectInput('ys', 'Asse Y', choices = c("Azienda"="azienda","Disciplina"="nbranca"), width ="70%")   
                             ),
                             
                             mainPanel(
